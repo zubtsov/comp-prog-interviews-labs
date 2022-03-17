@@ -1,0 +1,36 @@
+\documentclass{article}
+\usepackage{import}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+
+\begin{document}
+    %TODO: make a better formulation
+    %TODO: add solution in JavaScript
+    Problem statement: given a number n, find the highest power of 2 that is smaller than or equal to n.
+    \newline
+    Solution:
+    \newline
+    $\begin{cases}
+         y = 2^x \\ y \in \mathbb{N} \\ 2^x <= n
+    \end{cases}$
+    \newline
+    $\begin{cases}
+         y = 2^x \\ y \in \mathbb{N} \\ log_2(2^x) <= log_2(n)
+    \end{cases}$
+    \newline
+    $\begin{cases}
+         y = 2^x \\ y \in \mathbb{N} \\ x <= log_2(n)
+    \end{cases}$
+    \newline
+    $\begin{cases}
+         y = 2^x \\ y \in \mathbb{N} \\ \max_{x \in \mathbb{N}}(x) = \lfloor log_2(n) \rfloor
+    \end{cases}$
+    \newline
+    $\begin{cases}
+         \max{y \in \mathbb{N}}(y) = 2^{\max{x \in \mathbb{N}}(x)} \\ y \in \mathbb{N} \\ \max{x \in \mathbb{N}}(x) = \lfloor log_2(n) \rfloor
+    \end{cases}$
+    \newline
+    $\begin{cases}
+         \max(y) = 2^{\lfloor log_2(n) \rfloor}
+    \end{cases}$
+\end{document}
