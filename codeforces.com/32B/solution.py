@@ -1,6 +1,6 @@
 remembered_char = ''
 parsed_number = ''
-
+# TODO: more state-machine like code
 for borze_number_part in input():
     if borze_number_part == '.':
         if remembered_char == '-':
