@@ -94,7 +94,7 @@ class Solution:
                 Solution.swap_elements(list_var, first_index, last_index)
             return list_var
         else:
-            middle_index = first_index + (last_index - first_index) // 2
+            middle_index = (first_index + last_index) // 2
             min_elem = min(list_var[first_index], list_var[middle_index], list_var[last_index])
             max_elem = max(list_var[first_index], list_var[middle_index], list_var[last_index])
             if min_elem <= list_var[middle_index] <= max_elem:
