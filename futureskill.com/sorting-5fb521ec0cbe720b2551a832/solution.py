@@ -10,9 +10,7 @@ class Solution:
                     next_smallest_number_idx = j
 
             if next_smallest_number_idx != i:
-                tmp = list_var[i]
-                list_var[i] = list_var[next_smallest_number_idx]
-                list_var[next_smallest_number_idx] = tmp
+                list_var[i], list_var[next_smallest_number_idx] = list_var[next_smallest_number_idx], list_var[i]
 
         return list_var
 
@@ -39,9 +37,7 @@ class Solution:
             swapped_elements = False
             for i in range(len(list_var) - 1):
                 if list_var[i] > list_var[i + 1]:
-                    tmp = list_var[i]
-                    list_var[i] = list_var[i + 1]
-                    list_var[i + 1] = tmp
+                    list_var[i], list_var[i + 1] = list_var[i + 1], list_var[i]
                     swapped_elements = True
 
         return list_var
@@ -81,9 +77,7 @@ class Solution:
     def swap_elements(l, i, j):
         if i == j:
             return
-        tmp = l[i]
-        l[i] = l[j]
-        l[j] = tmp
+        l[i], l[j] = l[j], l[i]
 
     @staticmethod
     def quicksort2(list_var, first_index, last_index):

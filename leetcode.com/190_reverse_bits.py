@@ -10,7 +10,7 @@ class Solution:
 
 
 if __name__ == '__main__':
-    n = random.randint(0, 2 ^ 32)
+    n = random.randint(0, 2 ** 32)
     print(f"n={n}: {bin(n)}")
     reversed_bits = Solution().reverseBits(n)
     print(f"n={reversed_bits}: {bin(reversed_bits)}")
