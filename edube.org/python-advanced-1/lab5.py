@@ -1,3 +1,5 @@
+# https://edube.org/learn/python-advanced-1/multiple-inheritance-the-lab
+
 class Scanner:
     def scan(self):
         print('scan from Scanner class')

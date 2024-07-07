@@ -1,3 +1,5 @@
+# https://edube.org/learn/python-advanced-1/lab-timestamping-logger
+
 from datetime import datetime
 from time import monotonic_ns
 

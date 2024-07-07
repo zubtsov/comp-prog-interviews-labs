@@ -1,3 +1,5 @@
+# https://edube.org/learn/python-advanced-1/working-with-class-and-instance-data-the-lab-1
+
 import random
 
 

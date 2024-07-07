@@ -1,3 +1,5 @@
+# https://edube.org/learn/python-advanced-1/lab-3
+
 class Tires:
     def __init__(self, size):
         self.__size = size

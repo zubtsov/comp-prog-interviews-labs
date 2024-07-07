@@ -1,3 +1,5 @@
+# https://edube.org/learn/python-advanced-1/lab-2
+
 class AccountException(Exception):
     pass
 

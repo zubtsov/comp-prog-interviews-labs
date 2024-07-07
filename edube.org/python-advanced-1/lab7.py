@@ -1,3 +1,5 @@
+# https://edube.org/learn/python-advanced-1/lab
+
 class LuxuryWatch:
     __watches_created = 0
 

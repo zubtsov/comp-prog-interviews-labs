@@ -1,3 +1,5 @@
+# https://edube.org/learn/python-advanced-1/lab-1-implementing-core-syntax
+
 class Duration:
     def __init__(self, hours=0, minutes=0, seconds=0):
         self._seconds = hours * 3600 + minutes * 60 + seconds

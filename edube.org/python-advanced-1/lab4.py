@@ -1,3 +1,5 @@
+# https://edube.org/learn/python-advanced-1/python-core-syntax-lab-2
+
 from typing import Union
 
 

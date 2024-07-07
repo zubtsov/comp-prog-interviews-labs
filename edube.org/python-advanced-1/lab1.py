@@ -1,3 +1,5 @@
+# https://edube.org/learn/python-advanced-1/classes-instances-attributes-methods-the-lab
+
 import random
 
 

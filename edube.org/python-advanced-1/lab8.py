@@ -1,3 +1,5 @@
+# https://edube.org/learn/python-advanced-1/lab-1
+
 import abc
 
 
