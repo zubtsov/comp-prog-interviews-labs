@@ -14,7 +14,7 @@ class LuxuryWatch:
         if not text.isalnum():
             raise ValueError("The engraving must contain only digits and letters")
 
-        watch = LuxuryWatch()
+        watch = cls()
         watch.engraving = text
         return watch
 
