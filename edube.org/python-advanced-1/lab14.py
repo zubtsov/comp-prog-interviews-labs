@@ -6,11 +6,11 @@ from datetime import datetime
 class InstantiationTime(type):
     instantiated_classes = set()
 
-    def __new__(cls, name, bases, dictionary):
+    def __new__(mcls, name, bases, dictionary):
         dictionary['instantiation_time'] = datetime.now()
         dictionary['get_instantiation_time'] = lambda: dictionary['instantiation_time']
-        cls.instantiated_classes.add(name)
-        return super().__new__(cls, name, bases, dictionary)
+        mcls.instantiated_classes.add(name)
+        return super().__new__(mcls, name, bases, dictionary)
 
 
 if __name__ == '__main__':
